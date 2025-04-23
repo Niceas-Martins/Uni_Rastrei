@@ -13,7 +13,7 @@ import Exame from './pages/Home/Exame';
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/Uni_Rastrei" element={<Home />} />
       <Route path="/Dashboard" element={<Dashboard />} />
       <Route path="/Novo_Paciente" element={<Novo_Paciente />} />
       <Route path="/Calendario" element={<Calendario />} />
