@@ -1,0 +1,187 @@
+.root_Paciente {
+  display: flex;
+}
+
+.Tops_Title_Paciente{
+  font-family: "Poppins", serif;
+  color: #767474;
+  font-size: 25px;
+  margin-bottom: 24px;
+}
+.Div_Paciente {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 0px 70px;
+  max-height: 90vh;
+}
+
+.Button_New_Registre {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 20px 15px 25px 0px;
+  width: 218px;
+  height: 39px;
+
+}
+
+
+
+.Vector_Black {
+  width: 20px;
+  height: 20px;
+}
+
+.Button_Registre {
+  display: flex;
+  align-items: center;
+  background-color: #358FD4;
+  color: rgb(255, 255, 255);
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.Text_New_Registre {
+  display: flex;
+}
+.List_Registre {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1024px;
+  height: 41px;
+}
+
+.List_Registre li {
+  color: white;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Main_Registre_Search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Input_Search {
+  flex: 1;
+  max-width: 300px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+
+.Usuario_Name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border: #f4f4f4 10px;
+  width: auto;
+  height: 52px;
+  gap: 20px;
+}
+
+.Cardiogram_Style {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.Group397_Style {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.Group399_Style {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.Paciente_Table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.Paciente_Table th,
+.Paciente_Table td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead{
+  border-radius: 5px;
+}
+.Paciente_Table th {
+  background-color: #358fd4;
+  color: white;
+}
+
+.Acoes {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Acoes img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.button_cancelar{
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.button_certeza {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: white;
+}
+

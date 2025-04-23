@@ -1,0 +1,237 @@
+:root {
+  --Blue_Transparent: #014760;
+  --Blue_Login: #4778ca;
+  --Text_Login: #5b5b5b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+.Login_Main h1 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+
+.Login_Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.Login_Main div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login_Main input {
+  width: 100%;
+  max-width: 540px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 10px;
+  margin: 5px;
+}
+
+.Input_Login {
+  display: flex;
+}
+
+.Img_Login img {
+  width: 100%;
+  height: 100%;
+}
+
+.Login_Main h1 span {
+  font-family: "Poppins", sans-serif;
+  color: #007bff;
+}
+
+div img{
+  display: flex;
+  flex-direction: column;
+}
+.Login_Main div {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.Login_Main input {
+  display: flex;
+  width: 540px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.password-container input {
+  width: 540px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.forgot-password {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding-right: 24rem;
+  font-size: 0.9rem;
+  color: var(--Text_Login);
+  text-decoration: none;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.Login-button {
+  padding: 10px 20px;
+  background-color: var(--Blue_Login);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 237px;
+  font-size: 1rem;
+}
+
+.Login-button:hover {
+  background-color: #007bff;
+  width: 247px;
+}
+
+.F_span {
+  display: flex;
+  justify-content: center;
+}
+
+.Text_Error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(182, 83, 83);
+  color: white;
+  width: 467px;
+  height: 53px;
+}
+
+.error-border:focus {
+  border: 2px solid red;
+}
+
+.Dashboard_Menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #358fd4;
+  color: white;
+  width: 151px;
+  height: 100vh;
+}
+
+.Topico_Dashboard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 15px;
+}
+
+li{
+  list-style-type: none;
+  margin: 10px;
+}
+
+
+button{
+  background-color: #007bff;
+  color: white;
+  background: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.Data{
+  width: 344px;
+  height: 410px;
+  display: flex;
+  background-color: #014760;
+}
+
+.root{
+  display: flex;
+}
+
+.Img_Dashboard, .Img_Calendar, .Img_Multiple{
+  gap: 5px;
+  margin-right: 5px;
+  width: 19px;
+  height: 19px;
+}
+
+button:hover{
+  font-size: 20px;
+}
+
+.User_Img, .Img_Calendar, .Img_Dashboard, .Img_Multiple{
+  margin-right: 25px;
+  width: 19px;
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.Img_Exist{
+  margin: 0px 0px 10px 40px;
+  width: 19px;
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Estatica_de_Pacientes{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.Brief_{
+   margin: auto;
+   font-size: 40px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}

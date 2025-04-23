@@ -1,0 +1,452 @@
+:root {
+  --Blue_Transparent: #014760;
+  --Blue_Login: #4778ca;
+  --Text_Login: #5b5b5b;
+}
+
+.Infor_Title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Main_register {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 0px 70px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.Ender_Title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Line {
+  width: 841px;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+.Main_Patient {
+  display: flex;
+}
+
+.Main_register {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 0px 70px;
+}
+
+.Tops_Title{
+  font-family: "Poppins", serif;
+  color: #767474;
+  font-size: 20px;
+}
+
+label {
+  display: flex;
+  margin: 5px;
+}
+
+label p {
+  font-family: "Poppins", serif;
+}
+
+.N_C {
+  display: flex;
+  flex-direction: row;
+}
+.Name_Top {
+  display: flex;
+  flex-direction: column;
+}
+
+.CPF_Top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+}
+
+.Data_Tele_Sexo {
+  display: flex;
+  flex-direction: row;
+}
+.Data_Top {
+  display: flex;
+  flex-direction: column;
+}
+
+.Telefone_Top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 58px;
+}
+
+.Input_Telefone {
+  width: 288.59px;
+  height: 35px;
+}
+
+.Sexo_Top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 58px;
+}
+
+.Input_Sexo {
+  width: 255.41px;
+  height: 35px;
+}
+
+.Input_Sexo{
+  border-radius: 6px;
+  border: 1px solid #bbbbbb;
+}
+
+.Input_Data {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 232.28px;
+  height: 35px;
+}
+.Nome_Completo {
+  width: 557px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid #bbbbbb;
+}
+
+.Input_CPF {
+  width: 380.1px;
+  height: 35px;
+}
+.Email_Top {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input_Email {
+  width: 984.44px;
+  height: 35px;
+}
+
+.Nome_Mae {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input_Nome_Mae {
+  width: 577.19px;
+  height: 35px;
+}
+.Estado_Civil_Top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
+
+.Input_Estado_Civil {
+  width: 359.99px;
+  height: 35px;
+}
+
+.Outro_Contato {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input_Outro_Contato {
+  width: 274.52px;
+  height: 35px;
+}
+
+.Nome_do_Contato {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
+
+.Input_Nome_do_Contato {
+  width: 379.09px;
+  height: 35px;
+}
+
+.Menor_Top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 28px;
+  align-items: center;
+}
+
+.Naturalidade_Top {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.Input_Naturalidade {
+  width: 274.52px;
+  height: 35px;
+}
+
+.Nacionalidade_Top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
+
+.Input_Nacionalidade {
+  width: 274.52px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid #bbbbbb;
+}
+.CEP_Top {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input_CEP {
+  width: 279.54px;
+  height: 35px;
+}
+.Logradouro_Top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.Input_logradouro {
+  width: 475.63px;
+  height: 35px;
+}
+.Bairro_Top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
+
+.Input_Bairro {
+  width: 245.36px;
+  height: 35px;
+}
+
+.Complemento_Top {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input_Complemento {
+  width: 379.09px;
+  height: 35px;
+}
+
+.Cidade_Top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.Input_Cidade {
+  width: 379.09px;
+  height: 35px;
+}
+
+.UF_Top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.Input_UF {
+  width: 107.59px;
+  height: 35px;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"] {
+  border-radius: 6px;
+  border: 1px solid #bbbbbb;
+}
+
+.Barr_Fina {
+  width: auto;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.Button_Div {
+  margin: 40px 35px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Button_Div1 {
+  margin: 40px 35px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.But_Pro {
+  border-radius: 6px;
+  width: 220.22px;
+  height: 40px;
+  background-color: var(--Blue_Login);
+}
+
+/* Histórico do Paciente:*/
+
+.Main_History {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 0px 70px;
+}
+
+.Historico_De_Taba {
+  display: flex;
+  flex-direction: column;
+}
+.Historico_De_Consumo_De_Alcool {
+  display: flex;
+  flex-direction: column;
+}
+.Taba_Alcool {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+}
+.Taba_Check {
+  display: flex;
+  flex-direction: row;
+}
+
+.Checkbox_Not {
+  margin-left: 15px;
+}
+
+.Consumo_Check {
+  display: flex;
+  flex-direction: row;
+}
+
+.Paciente_Check {
+  display: flex;
+  flex-direction: row;
+}
+
+.Div_Main_Paciente {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.Div_Paciente_Glaucoma_Consulta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.Paciente_Check_Date {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Date_Oftamologica {
+  width: 178.99px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.Condicoes_medicas {
+  width: 1014.61px;
+  height: 93px;
+  padding: 10px;
+  resize: none;
+  font-size: 14px;
+  line-height: 1.4;
+  vertical-align: top;
+  border-radius: 5px;
+  outline: none; 
+  border: 1px solid #bbbbbb;
+}
+
+.Input_Sintoma {
+  width: 1014.61px;
+  height: 93px;
+  padding: 10px;
+  resize: none;
+  font-size: 14px;
+  line-height: 1.4;
+  vertical-align: top;
+  border-radius: 5px;
+  outline: none; 
+  border: 1px solid #bbbbbb ;
+}
+
+.But_Volt {
+  border-radius: 6px;
+  width: 220.22px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  box-shadow: #919191 -2px -2px 5px 0px;
+  margin: 2px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Button_Style {
+  background-color: #014760;
+  margin: 5px;
+  color: white;
+  width: 139px;
+  height: 25px;
+  border-radius: 15px;
+}
+
+
+.erro-input {
+  border: 1px solid rgb(206, 80, 80) !important;
+}
+
+.Verification_input {
+  display: none;
+  font-size: 12px;
+  color: red;
+  margin-top: 4px;
+}
+
+.sucess-input {
+  border: 1px solid rgb(80, 206, 80) !important;
+} 
+.mostrar-erro {
+  display: block;
+}

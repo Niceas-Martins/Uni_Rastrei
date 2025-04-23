@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.info-group {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.exam-list {
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.exam-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 63px;
+  align-items: center;
+  background:  #4778CA;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.view-button {
+  background: transparent;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  font-weight: bold;
+}
+.Div_Button{
+  display: flex;
+  justify-content: center;
+}
+
+.Back_button {
+  width: 220.22px;
+  height: 40px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  width: 220.22px;
+  height: 40px;
+  background-color: #ffffff;
+  color: rgb(7, 7, 7);
+  box-shadow: #919191 -2px -2px 5px 0px;
+}
+
+.Main_Ava{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px 0px 0px 20px; 
+}
+
+.Title_Ava{
+  margin: 0px 0px 30px  20px;
+  color: #616161;
+
+}
+.Add_Img{
+  width: 403px;
+  height: 54px;
+  background-color:  #4778CA;
+  color: white;
+  border-radius: 6px;
+}
+
+.button-group {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Send_Img, .Cancel_Img {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.Send_Img {
+  width: 220.22px;
+  height: 40px;
+  background-color: #ffffff;
+  color: rgb(26, 25, 25);
+  box-shadow: #919191 -2px -2px 5px 0px;
+}
+
+.Cancel_Img {
+  width: 220.22px;
+  height: 40px;
+  background-color: #4778CA;
+  color: white;
+}
+
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px  0px 0px 20px;
+}
+
+.preview-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
